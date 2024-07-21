@@ -14,8 +14,8 @@
 
 .logo {
   flex: 20%;
-  margin-left: 3%;
-  margin-top: 1%;
+  margin-left: 1%;
+  margin-top: 2.5%;
   /* border:1px solid red;  */
   text-align: left;
 }
@@ -32,7 +32,7 @@
 }
 
 .menu a {
-  color: rgb(165, 163, 163);
+  color: rgb(143, 143, 143);
   text-decoration: none;
   font-size: 20px;
   padding: 20px 16px;
@@ -45,9 +45,9 @@
 }
 
 #botao {
-  background: rgb(165, 163, 163);
-  padding: 10px 15px;
-  color: #0ad1e7;
+  background: #0ad1e7;
+  padding: 10px 25px;
+  color: white;
   border-radius: 5px;
   margin-right: 10%;
   margin-left: 5%;
@@ -55,7 +55,27 @@
 
 #botao:hover {
   border: none;
-  background: rgb(0, 89, 255);
+  background: #0795a5;
+}
+
+.Image {
+  display: flex;
+  position: relative;
+  background-image: url("../img/familia.png");
+  background-size: cover;
+  background-position: bottom bottom;
+  background-attachment: fixed;
+  height: 900px;
+  width: 100%;
+}
+
+.txtImg {
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
 }
 
 body {

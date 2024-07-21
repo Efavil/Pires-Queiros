@@ -16,8 +16,8 @@ $primary: #0ad1e7;
 
 .logo {
     flex: 20%;
-    margin-left: 3%;
-    margin-top: 1%;
+    margin-left: 1%;
+    margin-top: 2.5%;
     /* border:1px solid red;  */
     text-align: left;
 }
@@ -34,7 +34,7 @@ $primary: #0ad1e7;
 }
 
 .menu a {
-    color: rgb(165, 163, 163);
+    color: rgb(143, 143, 143);
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
@@ -43,13 +43,14 @@ $primary: #0ad1e7;
 
 .menu a:hover {
     color: $primary;
+    ;
     border-top: 4px solid $primary;
 }
 
 #botao {
-    background: rgb(165, 163, 163);
-    padding: 10px 15px;
-    color: $primary;
+    background: $primary;
+    padding: 10px 25px;
+    color: white;
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
@@ -57,5 +58,5 @@ $primary: #0ad1e7;
 
 #botao:hover {
     border: none;
-    background: rgb(0, 89, 255);
+    background: #0795a5;
 }
