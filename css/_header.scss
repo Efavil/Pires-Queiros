@@ -1,10 +1,5 @@
 $primary-font: "Montserrat", sans-serif;
 
-header {
-    width: 100vw;
-    // border: 1px solid green;
-}
-
 .Image {
     display: flex;
     position: relative;
@@ -13,23 +8,23 @@ header {
     background-position: bottom bottom;
     background-attachment: fixed;
     height: 900px;
-    width: 100vw;
+    width: 100%;
 }
 
 #overlay {
     opacity: 0.3;
     background-color: black;
     height: 900px;
-    width: 100vw;
+    width: 100%;
 }
 
 .txtImg {
-    z-index: 5;
+    width: 1200px;
     display: flex;
-    width: 1300px;
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    flex-wrap: wrap;
     position: absolute;
     top: 200px;
     margin-left: 100px;
@@ -62,7 +57,7 @@ header {
 #ex2 {
     position: absolute;
     top: 183px;
-    left: 202px;
+    left: 256px;
     background-color: white;
     width: 170px;
     color: $primary;
