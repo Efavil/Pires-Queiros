@@ -173,8 +173,227 @@ header {
   margin-top: 60px;
 }
 
+#seguradora {
+  overflow: hidden;
+  color: rgb(53, 53, 53);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 700px;
+  background-image: url(../img/lifeIcon.png);
+  background-size: 50px;
+  background-color: rgb(236, 236, 236);
+}
+
+#seguradora-image {
+  height: 600px;
+  width: 50%;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#seguradora-text {
+  z-index: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 600px;
+  width: 50%;
+}
+
+#seguradora-text div {
+  display: flex;
+  flex-flow: column;
+  width: 70%;
+  height: 500px;
+}
+
+#seguradora-text h2 {
+  width: 450px;
+}
+
+#seguradora-text h2 b {
+  color: #0ad1e7;
+}
+
+#seguradora-text p {
+  width: 98%;
+  font-size: 20px;
+}
+
+#seguradora-text-btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#seguradora-image-card {
+  z-index: 1;
+  background-image: url("../img/test-1.jpg");
+  background-position: center;
+  border-radius: 20px;
+  background-color: black;
+  height: 470px;
+  width: 670px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.726);
+}
+
+@keyframes card-image-extra {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#seguradora-image-card-extra {
+  display: flex;
+  position: relative;
+  right: -600px;
+  bottom: 20px;
+  width: 90px;
+  height: 90px;
+  border: 5px solid white;
+  border-radius: 50%;
+  background: linear-gradient(#0ad1e7, rgb(0, 255, 255));
+  transition: transform linear 0.2s;
+  transition: opacity 0.5s linear;
+  animation: card-image-extra 1s infinite;
+  cursor: pointer;
+}
+
+#seguradora-image-card-extra img {
+  transform: scale(0.8);
+}
+
+@keyframes seguradora-image-overlay-entry {
+  from {
+    height: 0;
+  }
+  to {
+    height: 470px;
+  }
+}
+.fade-out {
+  opacity: 0;
+}
+
+#seguradora-image-overlay {
+  overflow: hidden;
+  color: white;
+  display: none;
+  position: absolute;
+  height: 470px;
+  width: 670px;
+  animation: seguradora-image-overlay-entry 1s;
+  background: linear-gradient(rgb(0, 197, 223), rgb(0, 159, 170));
+  opacity: 96%;
+  border-radius: 20px;
+  transition: opacity 1s linear;
+}
+
+@keyframes overlay-text-anim {
+  from {
+    left: 1000px;
+  }
+  to {
+    left: 0;
+  }
+}
+#seguradora-image-overlay-text {
+  font-size: 25px;
+  display: none;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  animation: overlay-text-anim 1s ease;
+}
+
+#seguradora-image-overlay-text-2 {
+  font-size: 25px;
+  display: none;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  animation: overlay-text-anim 1s ease;
+}
+
+#representante {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  box-shadow: 20px 0 12px rgba(0, 0, 0, 0.356);
+  background-color: white;
+  height: 600px;
+}
+
+#representante-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background-color: bisque;
+  width: 100%;
+  height: 30%;
+}
+
+#representante-title h1 {
+  font-size: 40px;
+}
+
+#representante-card {
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  min-height: 70%;
+}
+
+@keyframes cards-animation {
+  from {
+    top: 1000px;
+  }
+  to {
+    top: 0;
+  }
+}
+.cards {
+  position: relative;
+  display: none;
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  background-color: white;
+  animation: cards-animation 1s ease;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn {
+  text-decoration: none;
+  text-align: center;
+  padding: 20px;
+  width: 170px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  transition: all 0.3s;
+  background-color: #0ad1e7;
+}
+#btn:hover {
+  background-color: rgba(10, 209, 231, 0.6431372549);
 }/*# sourceMappingURL=index.css.map */
