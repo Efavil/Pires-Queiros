@@ -4,7 +4,7 @@
     justify-content: space-around;
     box-shadow: 20px 0 12px rgba(0, 0, 0, 0.356);
     background-color: white;
-    height: 600px;
+    min-height: 600px;
 }
 
 #representante-title {
@@ -40,7 +40,7 @@
 }
 
 #representante-card {
-    background-image: url("../img/Logo-Test.png");
+    margin-top:50px;
     background-size: 60px;
     overflow: hidden;
     display: flex;

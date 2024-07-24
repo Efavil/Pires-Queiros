@@ -2,92 +2,50 @@ $primary-font: "Montserrat", sans-serif;
 
 .Image {
     display: flex;
-    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-image: url("../img/familia.png");
     background-size: cover;
-    background-position: bottom bottom;
     background-attachment: fixed;
-    height: 900px;
+    height: 950px;
     width: 100%;
+    overflow: hidden;
 }
 
 #overlay {
+    position: absolute;
     opacity: 0.3;
     background-color: black;
-    height: 900px;
+    height: 100%;
     width: 100%;
 }
 
 .txtImg {
-    width: 1200px;
+    z-index: 3;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
-    flex-wrap: wrap;
-    position: absolute;
-    top: 200px;
-    margin-left: 100px;
+    margin: 0 80px;
     color: white;
     // border: 1px solid green;
     font-family: $primary-font;
 }
 
 .txtImg h1 {
-    font-size: 60px;
+    font-size: 40px;
     text-shadow: 0.5px 0px 2px rgba(0, 0, 0, 0.63);
-}
-
-#ex {
-    position: absolute;
-    top: 0;
-    left: 1110px;
-    color: $primary;
 }
 
 .txtImg p {
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 0.5px 0px 2px rgba(0, 0, 0, 0.63);
 }
 
-#p1 {
-    margin-bottom: 0;
-}
-
-#ex2 {
-    position: absolute;
-    top: 183px;
-    left: 256px;
-    background-color: white;
-    width: 170px;
-    color: $primary;
-    border-radius: 3px;
-}
-
-#p2 {
-    margin-top: 0;
-}
-
-#ex3 {
-    position: absolute;
-    top: 303px;
-    left: 713px;
-    background-color: white;
-    width: 170px;
-    color: $primary;
-    border-radius: 3px;
-}
-
-#p3 {
-    position: absolute;
-    top: 302px;
-    left: 889px;
-}
 
 #btn1 {
     text-decoration: none;
-    position: relative;
-    left: -80px;
     margin-top: 60px;
     padding: 20px;
     width: 286px;

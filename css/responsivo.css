@@ -1,5 +1,5 @@
 /* Smartphones (600px para baixo) */
-@media only screen and (max-width: 600px) and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     #seguradora {
         flex-flow: column;
     }
@@ -52,6 +52,22 @@
     #seguradora-text-btn {
         align-items: center;
     }
+
+    .footer-container {
+        font-size: 16px;
+    }
+
+    #contact {
+        margin-bottom: 20px;
+    }
+
+    #redes {
+        padding-right: 70px;
+    }
+
+    #logo {
+        margin-right: 80px;
+    }
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
@@ -89,6 +105,14 @@
     }
     #seguradora-text-btn {
         align-items: center;
+    }
+
+    .footer-container {
+        max-width: 2000px;
+    }
+
+    #logo {
+        margin-right: 80px;
     }
 }
 
@@ -128,12 +152,26 @@
     #seguradora-text-btn {
         align-items: center;
     }
+
+    .footer-container {
+        max-width: 2000px;
+    }
+
+    #logo {
+        margin-right: 200px;
+    }
+
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
+    .footer-container {
+        max-width: 2000px;
+    }
+
+    #logo {
+        margin-right: 200px;
+    }
+    
 }
-
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) {}
