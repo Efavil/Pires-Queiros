@@ -20,14 +20,13 @@ nav {
 
 .logo {
   flex: 20%;
-  margin-left: 1%;
-  margin-top: 2.5%;
+  margin-left: 20px;
   /* border:1px solid red;  */
   text-align: left;
 }
 
 .logo img {
-  height: 200px;
+  height: 80px;
 }
 
 .menu {
