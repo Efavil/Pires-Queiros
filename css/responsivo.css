@@ -6,6 +6,7 @@
 
     #seguradora-image {
         width: 100%;
+        height: 300px;
     }
 
     #seguradora-text {
@@ -107,6 +108,12 @@
         position: relative;
     }
 
+    #seguradora-text-smartphone{
+        display: flex;
+        flex-flow: column wrap;
+        font-size: 15px;
+    }
+
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
@@ -176,6 +183,11 @@
 
     .Image{
         height: 900px;
+    }
+
+    #seguradora-text-smartphone{
+        display: flex;
+        flex-flow: column wrap;
     }
 }
 

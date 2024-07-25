@@ -438,6 +438,11 @@ nav {
   animation: overlay-text-anim 1s ease;
 }
 
+#seguradora-text-smartphone {
+  text-align: center;
+  display: none;
+}
+
 #representante {
   display: flex;
   flex-flow: row wrap;
