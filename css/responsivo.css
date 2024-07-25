@@ -59,15 +59,54 @@
 
     #contact {
         margin-bottom: 20px;
+        margin-right: 10px;
     }
 
-    #redes {
-        padding-right: 70px;
-    }
 
     #logo {
         margin-right: 80px;
     }
+
+
+    .txtImg {
+        text-align: center;
+    }
+
+    .txtImg h1 {
+        font-size: 28px;
+        margin-bottom: 5px;
+    }
+    
+    .txtImg p {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    #btn1 {
+        text-align: center;
+        padding: 20px 0;
+        margin-top: 30px;
+        width: 170px;
+        font-size: 16px;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu {
+        flex: 0;
+    }
+
+    .hamburguer {
+        display: flex;
+        margin-right: 0px;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
@@ -107,12 +146,36 @@
         align-items: center;
     }
 
-    .footer-container {
-        max-width: 2000px;
+    #redes {
+        margin-right: 20px;
+    }
+
+    #redes a {
+        width: 120px;
     }
 
     #logo {
         margin-right: 80px;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu {
+        flex: 0;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+    .Image{
+        height: 900px;
     }
 }
 
@@ -161,17 +224,43 @@
         margin-right: 200px;
     }
 
+    #redes {
+        margin-right: 20px;
+    }
+
+    #redes a {
+        width: 120px;
+    }
+
+    .menu a {
+        display: none;
+    }
+
+    .menu {
+        flex: 0;
+    }
+
+    .hamburguer {
+        display: flex;
+    }
+
+    .navbar {
+        position: relative;
+    }
+
+
 }
 
 /* Dispostivos Largos (laptops/desktops, 992px para cima) */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 
-    .footer-container {
-        max-width: 2000px;
-    }
 
     #logo {
         margin-right: 200px;
+    }
+
+    #overlay {
+        height: 100.5%;
     }
     
 }

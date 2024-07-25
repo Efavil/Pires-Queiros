@@ -40,7 +40,6 @@
 }
 
 #representante-card {
-    margin-top:50px;
     background-size: 60px;
     overflow: hidden;
     display: flex;
@@ -62,6 +61,7 @@
 }
 
 .cards {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;

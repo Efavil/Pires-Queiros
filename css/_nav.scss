@@ -1,5 +1,10 @@
 $primary: #0ad1e7;
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .navbar {
     z-index: 10;
     display: flex;

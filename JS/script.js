@@ -63,4 +63,16 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+function mudouTamanho() {
+    if (window.innerWidth > 992) {
+        itens.style.display = 'none'
+    }
+}
 
+function clickMenu() {
+    if (itens.style.display == 'flex') {
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'flex'
+    }
+}
