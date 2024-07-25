@@ -111,7 +111,6 @@
     #seguradora-text-smartphone{
         display: flex;
         flex-flow: column wrap;
-        font-size: 15px;
     }
 
 }
