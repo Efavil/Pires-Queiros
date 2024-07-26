@@ -11,10 +11,15 @@
 $primary: #0ad1e7;
 $primary-font: "Montserrat", sans-serif;
 
-body {
+html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+head {
+    width: 100%;
 }
 
 #btn {

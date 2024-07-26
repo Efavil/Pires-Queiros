@@ -2,6 +2,7 @@
 @media only screen and (max-width: 600px) {
     #seguradora {
         flex-flow: column;
+        padding-right: 0px;
     }
 
     #seguradora-image {
@@ -65,7 +66,8 @@
 
 
     #logo {
-        margin-right: 80px;
+        margin-right: 60px;
+        text-align: center;
     }
 
 
@@ -108,9 +110,33 @@
         position: relative;
     }
 
+    #seguradora-text {
+        width: 280px;
+        align-items: baseline;
+    }
+
+    #seguradora-image-card {
+        width: 280px;
+    }
+
     #seguradora-text-smartphone{
         display: flex;
         flex-flow: column wrap;
+        width: 200px;
+    }
+
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+
+    .title-prods h1 {
+        position: relative;
+        left: -15px;
+    }
+
+    .title-prods p {
+        left: 0px;
     }
 
 }
@@ -119,6 +145,7 @@
 @media only screen and (min-width: 600px) and (max-width:768px) {
     #seguradora {
         flex-flow: column;
+        padding-right: 0px;
     }
 
     #seguradora-image {
@@ -194,6 +221,7 @@
 @media only screen and (min-width: 768px) and (max-width:992px) {
     #seguradora {
         flex-flow: column;
+        padding-right: 0px;
     }
 
     #seguradora-image {
@@ -232,7 +260,7 @@
     }
 
     #logo {
-        margin-right: 200px;
+        margin-right: 80px;
     }
 
     #redes {
@@ -259,6 +287,18 @@
         position: relative;
     }
 
+    #seguradora-text {
+        width: 700px;
+    }
+
+    #seguradora-image-card {
+        width: 700px;
+    }
+
+    #seguradora-text-smartphone{
+        width: 700px;
+    }
+
 
 }
 
@@ -267,7 +307,7 @@
 
 
     #logo {
-        margin-right: 200px;
+        margin-right: 80px;
     }
 
     #overlay {
