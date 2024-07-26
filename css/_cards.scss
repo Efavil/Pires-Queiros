@@ -47,6 +47,7 @@ $primary: #0ad1e7;
     height: 350px;
     overflow: hidden;
     background-size: cover;
+    background-position: center center;
     border: 5px solid $primary;
     border-radius: 40px;
     margin: 80px 30px;
@@ -54,19 +55,19 @@ $primary: #0ad1e7;
 }
 
 #cd1 {
-    background-image: url(../img/familia.png);
+    background-image: url(../img/faml.jpg);
 }
 
 #cd2 {
-    background-image: url(../img/familia.png);
+    background-image: url(../img/famComCacho.jpg);
 }
 
 #cd3 {
-    background-image: url(../img/familia.png);
+    background-image: url(../img/medico.jpg);
 }
 
 #cd4 {
-    background-image: url(../img/familia.png);
+    background-image: url(../img/Mtrabalhando.jpg);
 }
 
 .ttb {

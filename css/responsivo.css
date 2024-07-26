@@ -313,5 +313,9 @@
     #overlay {
         height: 100.5%;
     }
+
+    #seguradora-text div {
+        height: 700px;
+    }
     
 }
