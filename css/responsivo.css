@@ -319,3 +319,17 @@
     }
     
 }
+
+@media screen and (min-width:992px) {
+    .box:hover .box-down {
+        top: 0;
+    }
+
+    .box:hover .ttb {
+        display: none;
+    }
+
+    .box-down {
+        transition: top 0.5s ease;
+    }
+}

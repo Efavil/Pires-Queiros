@@ -85,7 +85,6 @@ $primary: #0ad1e7;
     position: absolute;
     top: 305px;
     left: 305px;
-    opacity: 0.6;
 }
 
 .less {
@@ -95,7 +94,7 @@ $primary: #0ad1e7;
 
 .box-down {
     position: absolute;
-    top: -100%;
+    top: -600px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -104,23 +103,11 @@ $primary: #0ad1e7;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: top 0.5s ease;
     text-align: center;
 }
 
-.box:hover .ttb {
-    display: none;
-}
-
-.box:hover img {
-    opacity: 1;
-}
 
 .box:hover .less {
     display: block;
     opacity: 0.5;
-}
-
-.box:hover .box-down {
-    top: 0;
 }

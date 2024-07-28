@@ -75,4 +75,25 @@ function clickMenu() {
     } else {
         itens.style.display = 'flex'
     }
-}
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const boxes = document.querySelectorAll('.box');
+
+    boxes.forEach(box => {
+        box.addEventListener('click', () => {
+            const targetSelector = box.getAttribute('data-target');
+            const boxDown = document.querySelector(targetSelector);
+
+            if (boxDown) {
+                requestAnimationFrame(() => {
+                    if (boxDown.style.top === '-600px') {
+                        boxDown.style.top = '0px';
+                    } else {
+                        boxDown.style.top = '-600px';
+                    }
+                });
+            }
+        });
+    });
+});

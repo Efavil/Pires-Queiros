@@ -71,6 +71,7 @@ nav {
   width: 100%;
   background-color: white;
   height: 440px;
+  position: absolute;
 }
 
 .menu-hamb a {
@@ -107,7 +108,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-image: url("../img/familia.png");
+  background-image: url("./img/familia.png");
   background-size: cover;
   background-attachment: fixed;
   height: 960px;
@@ -237,7 +238,6 @@ nav {
   position: absolute;
   top: 305px;
   left: 305px;
-  opacity: 0.6;
 }
 
 .less {
@@ -247,7 +247,7 @@ nav {
 
 .box-down {
   position: absolute;
-  top: -100%;
+  top: -600px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -256,25 +256,12 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: top 0.5s ease;
   text-align: center;
-}
-
-.box:hover .ttb {
-  display: none;
-}
-
-.box:hover img {
-  opacity: 1;
 }
 
 .box:hover .less {
   display: block;
   opacity: 0.5;
-}
-
-.box:hover .box-down {
-  top: 0;
 }
 
 #seguradora {
